@@ -5,54 +5,18 @@
       "request": "launch",
       "args": [],
       "cwd": "${workspaceFolder:background-macOS}",
-      "name": "Debug background-macOS",
-      "program": "${workspaceFolder:background-macOS}/.build/debug/background-macOS",
-      "preLaunchTask": "swift: Build Debug background-macOS"
+      "name": "Debug BackgroundSoundsApp",
+      "program": "${workspaceFolder:background-macOS}/.build/debug/BackgroundSoundsApp",
+      "preLaunchTask": "swift: Build Debug BackgroundSoundsApp"
     },
     {
       "type": "swift",
       "request": "launch",
       "args": [],
       "cwd": "${workspaceFolder:background-macOS}",
-      "name": "Release background-macOS",
-      "program": "${workspaceFolder:background-macOS}/.build/release/background-macOS",
-      "preLaunchTask": "swift: Build Release background-macOS"
-    },
-    {
-      "type": "swift",
-      "request": "launch",
-      "args": [],
-      "cwd": "${workspaceFolder:background-macOS}",
-      "name": "Debug main",
-      "program": "${workspaceFolder:background-macOS}/.build/debug/main",
-      "preLaunchTask": "swift: Build Debug main"
-    },
-    {
-      "type": "swift",
-      "request": "launch",
-      "args": [],
-      "cwd": "${workspaceFolder:background-macOS}",
-      "name": "Release main",
-      "program": "${workspaceFolder:background-macOS}/.build/release/main",
-      "preLaunchTask": "swift: Build Release main"
-    },
-    {
-      "type": "swift",
-      "request": "launch",
-      "args": [],
-      "cwd": "${workspaceFolder:background-macOS}",
-      "name": "Debug BackgroundSound",
-      "program": "${workspaceFolder:background-macOS}/.build/debug/BackgroundSound",
-      "preLaunchTask": "swift: Build Debug BackgroundSound"
-    },
-    {
-      "type": "swift",
-      "request": "launch",
-      "args": [],
-      "cwd": "${workspaceFolder:background-macOS}",
-      "name": "Release BackgroundSound",
-      "program": "${workspaceFolder:background-macOS}/.build/release/BackgroundSound",
-      "preLaunchTask": "swift: Build Release BackgroundSound"
+      "name": "Release BackgroundSoundsApp",
+      "program": "${workspaceFolder:background-macOS}/.build/release/BackgroundSoundsApp",
+      "preLaunchTask": "swift: Build Release BackgroundSoundsApp"
     }
   ]
 }

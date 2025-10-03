@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "BackgroundSound",
+    name: "BackgroundSoundsApp",
     platforms: [
         .macOS(.v15)
     ],
     targets: [
         .executableTarget(
-            name: "BackgroundSound",
+            name: "BackgroundSoundsApp",
             dependencies: []
         ),
     ]
